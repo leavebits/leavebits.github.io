@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="https://unpkg.com/downloadjs@1.4.7"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4PWNSV70NY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4PWNSV70NY');
+    </script>
+  </head>
+
+  <body>
+    <h1>LEAVE GENERATOR</h1>
+    <div>
+        <form action="javascript:void(0);">
+          <input type="text" id="ID" name="ID" placeholder="BITS ID">
+          <input type="text" id="name" name="name" placeholder="NAME">
+          <input type="text" id="contact" name="contact" placeholder="CONTACT NO.">
+          <input type="text" id="room" name="room" placeholder="ROOM NO.">
+          
+          <select id="hostel" name="hostel">
+            <option value="Srinivasa Ramanujan Bhawan">Srinivasa Ramanujan Bhawan</option>
+            <option value="Krishna Bhawan">Krishna Bhawan</option>
+            <option value="Gandhi Bhawan">Gandhi Bhawan</option>
+            <option value="Vishwakarma Bhawan">Vishwakarma Bhawan</option>
+            <option value="Meera Bhawan">Meera Bhawan</option>
+            <option value="Shankar Bhawan">Shankar Bhawan</option>
+            <option value="Vyas Bhawan">Vyas Bhawan</option>
+            <option value="Ram Bhawan">Ram Bhawan</option>
+            <option value="Budh Bhawan">Budh Bhawan</option>
+          </select>
+          <br> 
+          <label for="birthday">DEPARTURE DATE:</label>
+          <input type="date" id="DEPARTURE" name="DEPARTURE" placeholder="NAME">
+          <br>
+          <br>
+          <label for="birthday">RETURN DATE:</label>
+          <input type="date" id="RETURN" name="RETURN" placeholder="NAME">
+        
+        </form>
+      </div>
+    <button onclick="modifyPdf()">GENERATE</button>
+    
+  </body>
+
+  <script>
+    
+  </script>
+</html>
