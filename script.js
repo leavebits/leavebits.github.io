@@ -61,28 +61,28 @@ const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib
     })
     firstPage.drawText(room.value, {
         x: 302,  
-        y: 607,  
+        y: 617,  
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
     })
     firstPage.drawText(wardens[hostels.indexOf(hostel.value)], {
         x: 302,  
-        y: 587,  
+        y: 597,  
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
     })
     firstPage.drawText(departuredate.getDate().toString()+'-'+months[departuredate.getMonth()]+'-'+(departuredate.getYear()-100+2000).toString(), {
         x: 302,  
-        y: 567, 
+        y: 577, 
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
     })
     firstPage.drawText(returnndate.getDate().toString()+'-'+months[returnndate.getMonth()]+'-'+(returnndate.getYear()-100+2000).toString(), {
         x: 302,  
-        y: 547,  
+        y: 557,  
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
