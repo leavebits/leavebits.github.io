@@ -54,35 +54,35 @@ const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib
     })
     firstPage.drawText(hostel.value, {
         x: 302,  
-        y: 637,  
+        y: 647,  
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
     })
     firstPage.drawText(room.value, {
         x: 302,  
-        y: 617,  
+        y: 627,  
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
     })
     firstPage.drawText(wardens[hostels.indexOf(hostel.value)], {
         x: 302,  
-        y: 597,  
+        y: 607,  
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
     })
     firstPage.drawText(departuredate.getDate().toString()+'-'+months[departuredate.getMonth()]+'-'+(departuredate.getYear()-100+2000).toString(), {
         x: 302,  
-        y: 577, 
+        y: 587, 
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
     })
     firstPage.drawText(returnndate.getDate().toString()+'-'+months[returnndate.getMonth()]+'-'+(returnndate.getYear()-100+2000).toString(), {
         x: 302,  
-        y: 557,  
+        y: 567,  
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
