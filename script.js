@@ -15,8 +15,8 @@ const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib
     const pages = pdfDoc.getPages()
     const firstPage = pages[0]
 
-    var ID = document.getElementById("ID");
-    var name = document.getElementById("name");
+    var ID = document.getElementById("ID").toUpperCase();
+    var name = document.getElementById("name").toUpperCase();
     var contact = document.getElementById("contact");
     var room = document.getElementById("room");
     var hostel = document.getElementById("hostel");
